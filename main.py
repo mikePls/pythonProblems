@@ -1,5 +1,5 @@
 
-
+#Objective: Create a function that returns all pairs whose sum equals a given target from an array of integers
 def sum_of_two(arr=[], target=None):
     for i in arr:
         if target-i in arr:
