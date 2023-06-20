@@ -1,8 +1,8 @@
+# Decide if a given number can be a sum of two numbers in a given sorted array
 
-
-def sum_of_two(arr=[], target=None):
+def sum_of_two(arr, target):
     for i in arr:
-        if target-i in arr:
+        if target-i in arr and i in arr:
             print(f'{i} + {target-i} = {target}')
 
 
